@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import UserServices from "./services/UserServices.js";
 import ProductService from "./services/ProductService.js";
 import { log } from "./utils/logger.js";
@@ -20,3 +21,7 @@ console.log(UserServices.getAllUsers());
 
 log("Products:");
 console.log(ProductService.getAllProducts())
+=======
+console.log("salom dunyo")
+>>>>>>> deleteProduct
+
