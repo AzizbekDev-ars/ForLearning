@@ -17,6 +17,9 @@ class UserService {
         user.email = email
         return user
     }
+    deleteUser(id){
+        Users.filter(x => x.id == id)
+    }
     getAllUsers(){
         return Users
     }
