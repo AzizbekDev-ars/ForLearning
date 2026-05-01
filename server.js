@@ -9,6 +9,7 @@ const user2 = UserServices.createUser("Vali", "vali@gmail.com");
 // Product qo'shish
 const pruduct1 = ProductService.createProduct("laptop", 1200);
 const product2 = ProductService.createProduct("phone", 800);
+const product3 = ProductService.createProduct("phone", 800);
 
 // UpdateUser
 UserServices.UpdateUser(2,"Aziz", "aziz@gmail.com")
